@@ -1,0 +1,19 @@
+1 r.encoding: 如果header中不存在charset，则认为编码为ISO-8859-1
+2 requests库的异常处理很重要
+3 url 格式 http://host[:port][path] 
+
+4 patch put的区别 
+    patch是http改良后的一个指令，修改url中的部分内容
+    put是重新提交，并覆盖原来资源
+    post是附加在原始资源后面
+
+5 字典键值对，post后存在form(表单)
+  字符串  ，post提交后，存放在"data"下
+
+6 遵守robots协议
+
+7 信息获取方式
+  通过 xml json yaml
+  直接查找字符串关键信息
+  结合上方两种方法
+  
